@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child-Selector</title>
+    <style type="text/css">
+       /* child selectors */
+       ol>li
+        {
+            font-size: 18px;
+            color: green;
+            text-decoration: underline ;
+        }
+        /* Decendent selector */
+        ul a
+        {
+            font-size: 18px;
+            color: blue;
+            text-decoration: underline ;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <ol>
+        <li>Home</li>
+        <li>About</li>
+        <li>Service</li>
+        <li>Contact</li>
+    </ol>
+</body>
+</html>
